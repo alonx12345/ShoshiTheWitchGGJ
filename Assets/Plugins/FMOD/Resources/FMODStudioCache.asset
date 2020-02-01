@@ -1,0 +1,557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8736265661671208944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cauldron/_cauldroneAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cauldron/_cauldroneAmbience
+  guid: f3258b734e8690439a3c0ce15d46c6f2
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 39500
+--- !u!114 &-8025190987009173676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cauldron/_cauldronDrop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cauldron/_cauldronDrop
+  guid: 963957176c4e4a44a3db0a83b0bc5141
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1812
+--- !u!114 &-7887539037173633876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_magicRepair
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_magicRepair
+  guid: fe83d79c935f0043a5393ae2fa64c7e3
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1358
+--- !u!114 &-7470732595055013202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/_MainTheme/Floor
+  m_EditorClassIdentifier: 
+  Name: Floor
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-7469173050393710924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/_MainTheme/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  Min: 0
+  Max: 100
+  Default: 0
+  Exists: 1
+--- !u!114 &-6717062106307713247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_ladderClimb
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_ladderClimb
+  guid: 95ddb8d69e2c504180cd632d80466912
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 820
+--- !u!114 &-5888478547819203540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoshi/_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoshi/_Footsteps
+  guid: 6c35abd265bcad42951cef3a9334e0a4
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 31692
+--- !u!114 &-5621616645554917582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoshi/_Giggle
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoshi/_Giggle
+  guid: 2b848bbe6cf3dd4c91e7eec8e5f2720f
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-5617439657075633920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../Desktop/REPAIR FMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637161726118828702
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1698
+  Exists: 1
+--- !u!114 &-4262804077554062334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_ papersFall
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_ papersFall
+  guid: 0b2d4486b7de0b468f0724054b178d3e
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-2496230690719894705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_footsteps
+  guid: d5056e49f7d7364e8b149087704432bb
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 718
+--- !u!114 &-1947874311524511777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_repair
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_repair
+  guid: e7742305138c874cb7b315cc9eea3e3c
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 933
+--- !u!114 &-1728430868656710586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_cauldronExplosionBreaks
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_cauldronExplosionBreaks
+  guid: f79deaa35506f14e9cf53f521ecff672
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &-126429404063512463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoshi/_Anger
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoshi/_Anger
+  guid: 5d8315d402efd1428c2244ec483d21a2
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1250
+--- !u!114 &-39976555486459285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoshi/_Gesture
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoshi/_Gesture
+  guid: ab640e798da1b5489e9efd9fe0980bb8
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 500
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -5617439657075633920}
+  - {fileID: 2041230962668383401}
+  EditorEvents:
+  - {fileID: -4262804077554062334}
+  - {fileID: -5621616645554917582}
+  - {fileID: 1888951401109640640}
+  - {fileID: -126429404063512463}
+  - {fileID: 7084851348683419079}
+  - {fileID: -5888478547819203540}
+  - {fileID: 3924111388752315391}
+  - {fileID: -6717062106307713247}
+  - {fileID: -8025190987009173676}
+  - {fileID: 6516399692457204515}
+  - {fileID: -39976555486459285}
+  - {fileID: 4586146608407248204}
+  - {fileID: -2496230690719894705}
+  - {fileID: -1947874311524511777}
+  - {fileID: 2157514256856237673}
+  - {fileID: -8736265661671208944}
+  - {fileID: -1728430868656710586}
+  - {fileID: -7887539037173633876}
+  - {fileID: 101915879915562890}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2041230962668383401}
+  StringsBanks:
+  - {fileID: -5617439657075633920}
+  stringsBankWriteTime: 637161726118828702
+  cacheVersion: 3
+--- !u!114 &101915879915562890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cauldron/_cauldronBubbling
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cauldron/_cauldronBubbling
+  guid: fe8646f088e3af4792ca4d72d75b1628
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 28000
+--- !u!114 &1888951401109640640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/_MainTheme
+  m_EditorClassIdentifier: 
+  Path: event:/_MainTheme
+  guid: 45224ebaae8b8d4ebf746016a88247b9
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7469173050393710924}
+  - {fileID: -7470732595055013202}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 164980
+--- !u!114 &2041230962668383401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../../Desktop/REPAIR FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637161726118758860
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 6373504
+  Exists: 1
+--- !u!114 &2157514256856237673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_ papers
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_ papers
+  guid: ecc25aa8e0dbf144849bff2b53bcef4f
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 875
+--- !u!114 &3924111388752315391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FirstFloor/_wandBreaks
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/FirstFloor/_wandBreaks
+  guid: 7d048efac37e084a8d543aff56116ffe
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1375
+--- !u!114 &4586146608407248204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoshi/_Godamn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoshi/_Godamn
+  guid: c01d9b7e2cf2334588dee7e0ad68c5c4
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7998
+--- !u!114 &6516399692457204515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoshi/_Hum
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoshi/_Hum
+  guid: a53df29a8dc24e4eaebe775c7ccf1e53
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18759
+--- !u!114 &7084851348683419079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cauldron/_cauldronRumble
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cauldron/_cauldronRumble
+  guid: 60a5cd58f574d147ab9e4e902237b4e5
+  Banks:
+  - {fileID: 2041230962668383401}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8717
