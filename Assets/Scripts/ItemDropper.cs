@@ -36,10 +36,10 @@ public class ItemDropper : MonoBehaviour, IPointerDownHandler
         MouseVector = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Selected) {
             isSnapped = false;
-           /* if (slotPos != null) {
-                slotPos.GetComponent<SlotHolder>().occupied = false;
-            }*/
-            spriteRenderer.sortingOrder = 5;
+            /* if (slotPos != null) {
+                 slotPos.GetComponent<SlotHolder>().occupied = false;
+             }*/
+            spriteRenderer.sortingLayerName = "DraggedObjects";
             MouseUpdate();
             if (dragSize != Vector2.zero) {
                 transform.localScale = dragSize;
@@ -47,7 +47,7 @@ public class ItemDropper : MonoBehaviour, IPointerDownHandler
             posOnClick = transform.position;
         }
         else if (!Selected && isSnapped){
-            spriteRenderer.sortingOrder = 5;
+            spriteRenderer.sortingLayerName = "DraggedObjects";
             if (dragSize != Vector2.zero) {
                 transform.localScale = dragSize;
             }
